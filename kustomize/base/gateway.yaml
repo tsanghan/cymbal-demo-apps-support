@@ -13,12 +13,6 @@ spec:
       hostname: "cymbal.sctp-sandbox.com"
       port: 80
       protocol: HTTP
-      allowedRoutes:
-        namespaces:
-          from: Selector
-          selector:
-            matchLabels:
-              kubernetes.io/metadata.name: demoapp
     - name: https
       hostname: "cymbal.sctp-sandbox.com"
       port: 443
